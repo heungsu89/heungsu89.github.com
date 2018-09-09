@@ -1,0 +1,114 @@
+@import url(./reset.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+*{
+    font-family: 'Nanum Myeongjo', serif;
+    color:#333;
+}
+.main{
+    display:flex;
+    width:100%;
+    height:100vh;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.title{margin-top:-60px;margin-bottom:10px;}
+.title span{
+    display:block;
+    font-size:32px;
+    font-weight:200;
+    padding-bottom:10px;
+}
+address small{
+    display:block;
+    text-align:center;
+    font-style:normal;
+    font-size:12px;
+    margin-top:10px;
+    font-weight:200;
+}
+.nav{
+    margin-top:30px;
+    display:flex;
+}
+.nav li:first-child{
+    border-right:1px solid #333
+}
+.nav li a{
+    display:block;
+    padding:0 14px;
+    font-size:14px;
+}
+
+
+
+.subPageHeader{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#fff;
+}
+.subPageHeader nav ul{
+    display:flex;
+    height:36px;
+    justify-content:center;
+    align-items:center;
+}
+.subPageHeader nav ul li a{
+    display:block;
+    padding:2px 8px;
+    font-size:14px;
+}
+.subPageHeader nav ul li a.select{
+    border-bottom:1px solid #333;
+}
+.container{
+    padding-top:36px;
+}
+.containerMenu li{
+    background:url(../IMGP0624.jpg) no-repeat center / 100%;
+}
+.containerMenu li:nth-child(2){
+    background-image: url(../2010-12-23_14.40.05.jpg)
+}
+.containerMenu li:nth-child(3){
+    background-image: url(../aaaa.jpg)
+}
+.containerMenu li:nth-child(4){
+    background-image: url(../2010-12-17_14.23.31.jpg)
+}
+.containerMenu li a{
+    display:flex;
+    height:100px;
+    justify-content:flex-end;
+    align-items:flex-end;
+    background:rgba(0,0,0,0.2)
+}
+.containerMenu li a span{
+    color:#fff;
+    font-size:16px;
+    font-weight:200;
+    padding:10px;
+}
+
+
+.imgBox img{
+    width:100%;
+}
+.imgBoxText{
+    padding:30px 14px;
+}
+.imgBoxText h2{
+    font-size:18px;
+    font-weight:200;
+    padding-bottom:10px;
+    border-bottom:1px solid #ccc;
+}
+.imgBoxText p{
+    word-break:break-all;
+    font-weight:12px;
+    white-space:pre-wrap;
+    font-size:12px;
+    line-height:1.8em;
+}
